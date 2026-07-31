@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f8f7f2;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Apply cursor suppression only on desktop/mouse devices */
+@media (pointer: fine) {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  [role="button"] {
+    cursor: none !important;
+  }
+}
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f3efe6;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #0f0f0f;
+    border-radius: 0px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #e14927;
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #0f0f0f #f3efe6;
+  }
+}

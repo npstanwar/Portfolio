@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+
+.grid-container {
+  display: flex;
+  width: 32vw;
+  align-items: start;
+  /* border: solid black 1px; */
+}
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: start;
+}
+
+.handwritten-text {
+  font-family: "Caveat", cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1a68d1; /* Electric handwritten blue */
+  margin: 0;
+  transform: rotate(-10deg); /* Subtle tilt to match natural handwriting */
+  letter-spacing: 1px;
+}

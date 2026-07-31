@@ -1,0 +1,20 @@
+.scroll-reveal {
+  margin: 20px 0;
+}
+
+.scroll-reveal-text {
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+}
+
+.scroll-reveal {
+  overflow: hidden;
+}
+
+.word {
+  display: inline-block;
+  color: #ffffff;
+
+  will-change: transform, opacity, filter, color;
+}
