@@ -30,7 +30,7 @@ const experiences = [
   },
   {
     id: 4,
-    date: "JDec 2025 – Jun 2026",
+    date: "Dec 2025 – Jun 2026",
     title: "Internship",
     company: "Labmentix Pvt. Ltd.",
     description:
