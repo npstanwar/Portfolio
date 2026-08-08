@@ -72,7 +72,7 @@ const HorizontalTimeline = () => {
           transition={{ duration: 0.6 }}
           className="text-2xl sm:text-3xl md:text-5xl font-black uppercase tracking-tight text-[#1C1917] text-center"
         >
-          Carrer History
+          Career History
         </motion.h2>
       </div>
 
