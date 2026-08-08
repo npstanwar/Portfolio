@@ -372,7 +372,7 @@ export default function ResumePage() {
                       Bachelor of Science (B.Sc.G)
                     </h4>
                     <span className="font-mono text-xs text-gray-500">
-                      May 2026 – Jun 2026
+                      July 2019 – July 2024
                     </span>
                   </div>
 
